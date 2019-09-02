@@ -510,12 +510,13 @@
 	}
 	function drawThrobs(){
 		for(var t in throbs){
-			drawThrob(throbs[t].x,throbs[t].y,throbs[t].z,(maxDepth - throbs[t].d)/20,t);
+			if (t != 7) { // avoid duplicate throb hack
+				drawThrob(throbs[t].x,throbs[t].y,throbs[t].z,(maxDepth - throbs[t].d)/20,t);
+			}
 		}
 	}
 
 	function drawThrob(x,y,z,radius,t){
-		if(!throbClear(x,y,z))return;
 		var el = document.createElement('a-entity');
 		el.setAttribute('throb','');
 		el.setAttribute('id','throb' + t);
@@ -525,18 +526,6 @@
 		document.querySelector('#torso').appendChild(el);
 		el.classList.toggle('throb');
 		throbEls[t] = el;
-	}
-
-	function throbClear(x,y,z){
-		var tclear=true;
-		for (var t in throbEls){
-			if(throbEls[t]){
-				if(throbEls[t].x==x && throbEls[t].y==y){
-					tclear = false;
-				}
-			}
-		}
-		return tclear;
 	}
 	</script>
   </head>
