@@ -1,4 +1,4 @@
-# backrelax
+# Back Relax
 
 Back Relax is my VR/AR/XR entry for the js13k 2019 game competition.
 
@@ -18,4 +18,11 @@ https://health.usnews.com/health-care/patient-advice/articles/2019-01-14/how-vir
 
 https://www.nytimes.com/2019/04/29/well/live/virtual-reality-as-therapy-for-pain.html
 
+Credits:
+Created by @randytayler - find me on Twitter.
 
+Torso model adapted from low-poly male mesh by Julius Krischan Makowka (jkmakowka@yahoo.de), licensed under Creative Commons Attribution Share-Alike 3.0 https://creativecommons.org/licenses/by-sa/3.0 
+
+Sounds by ZzFX - MIT License (c) 2019 Frank Force https://github.com/KilledByAPixel/ZzFX 
+
+Thanks aframe.io and js13kgames.com!
