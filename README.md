@@ -13,7 +13,9 @@ As for the actual value of this app, well, it hasn't been reviewed by any medica
 Here, however, are some links about how VR has proven helpful for some individuals' pain relief:
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5172565/
+
 https://health.usnews.com/health-care/patient-advice/articles/2019-01-14/how-virtual-reality-can-help-treat-chronic-pain
+
 https://www.nytimes.com/2019/04/29/well/live/virtual-reality-as-therapy-for-pain.html
 
 
